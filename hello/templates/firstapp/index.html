@@ -1,0 +1,31 @@
+{% extends "firstapp/base.html" %}
+{% load static %}
+{% block title %}Lad{% endblock title %}
+{% block header %}Главная страница{% endblock header %}
+{% block content %}
+    <div class="container-fluid my-2 text-star">
+        <div class="row">
+            <div class="col text-center text-dark">
+                <div>{{ my_text }}</div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+
+
+<!--<!DOCTYPE html>-->
+<!--{% load static %}-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Lad</title>-->
+<!--    <link href="{% static 'css/style.css' %}" rel="stylesheet">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>{{ header }}</h1>-->
+<!--    <p>{{ user.name }}</p>-->
+<!--    <p>Адрес: {{ adress.0 }}</p>-->
+<!--    <p>Языки: {{ langs.0 }}</p>-->
+<!--    <img src="{% static 'img/test.jpg' %}">-->
+<!--</body>-->
+<!--</html>-->
